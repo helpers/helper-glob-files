@@ -1,0 +1,72 @@
+{
+  "name": "helper-glob-files",
+  "description": "Generic template helper for creating an array of vinyl file objects from a glob pattern.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/helpers/helper-glob-files",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "helpers/helper-glob-files",
+  "bugs": {
+    "url": "https://github.com/helpers/helper-glob-files/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "extend-shallow": "^2.0.1",
+    "matched": "^0.4.4",
+    "vinyl": "^2.0.1"
+  },
+  "devDependencies": {
+    "engine": "^0.1.12",
+    "gulp-format-md": "^0.1.11",
+    "handlebars": "^4.0.6",
+    "lodash.template": "^4.4.0",
+    "mocha": "^3.2.0"
+  },
+  "keywords": [
+    "compile",
+    "files",
+    "glob",
+    "helper",
+    "helpers",
+    "list",
+    "render",
+    "template",
+    "templates"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "handlebars-helpers",
+        "template-helpers"
+      ]
+    },
+    "reflinks": [
+      "assemble",
+      "engine",
+      "generate",
+      "generate-helper",
+      "handlebars",
+      "helpers"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
